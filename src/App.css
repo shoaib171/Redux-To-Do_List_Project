@@ -1,38 +1,66 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Bubbles&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to right, #ffffcc 52%, #99ff66 27%);
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Box {
+  margin: auto;
+  width: 32%;
+  position: relative;
+  top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.eachItems {
+  margin-top: 20px;
+  background-color: black;
+  background: #fff;
+  padding: 0.8rem 0.8rem;
+  border-radius: 0.8rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.3rem;
+  background: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.eachItems:hover {
+  background: rgb(119, 111, 111);
+  color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-btn {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  margin: auto;
+  width: 11%;
+  position: relative;
+  top: 55px;
+}
+.btn .Buttn {
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Rubik Bubbles";
+  border-radius: 20px;
+}
+.btn .Buttn:hover {
+  background: rgb(119, 111, 111);
+  color: black;
+  text-decoration: underline;
 }
